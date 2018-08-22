@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TestAttributeSample : MonoBehaviour {
     [Test]
-    int hoge;
+    public int hoge;
     [TestAttribute]
-    int fuga;
+    public int fuga;
 }
